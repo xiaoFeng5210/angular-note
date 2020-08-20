@@ -18,6 +18,9 @@ export class HeroService {
   constructor(
     private messageService: MessageService,
     private http: HttpClient) { }
+  log(message: string) {
+    this.messageService.add(`HeroService: ${message}`);
+  }
   getHeroes(): Observable<Hero[]> {
     // return of(HEROES);
     return this.http.get<Hero[]>(this.heroesUrl).pipe(
@@ -71,8 +74,5 @@ export class HeroService {
       this.log(`${operation} failed: ${error.message}`);
       return of(result as T);
     }
-  }
-  private log(message: string) {
-    this.messageService.add(`HeroService: ${message}`);
   }
 }
