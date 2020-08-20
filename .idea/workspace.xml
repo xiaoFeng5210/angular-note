@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6494530-6f22-4cfb-a3cd-bf8254fc320e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/dashboard/dashboard.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/dashboard/dashboard.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/dashboard/dashboard.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/dashboard/dashboard.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/hero.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/hero.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/message.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/message.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/messages/messages.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/messages/messages.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/messages/messages.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/messages/messages.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/hero-search/hero-search.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/hero-search/hero-search.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/hero-search/hero-search.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/hero-search/hero-search.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/in-memory-data.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ng-demo/src/app/in-memory-data.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-demo/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-demo/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-demo/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-demo/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-demo/src/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/dashboard/dashboard.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-demo/src/app/hero-detail/hero-detail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/hero-detail/hero-detail.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-demo/src/app/hero-detail/hero-detail.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/hero-detail/hero-detail.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-demo/src/app/hero-detail/hero-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/hero-detail/hero-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ng-demo/src/app/hero.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/hero.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-demo/src/app/heroes/heroes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/heroes/heroes.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ng-demo/src/app/heroes/heroes.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/heroes/heroes.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ng-demo/src/app/heroes/heroes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ng-demo/src/app/heroes/heroes.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +40,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Users\Administrator\Desktop\angular-note\ng-demo\node_modules\typescript\lib" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Users\Dell\Desktop\angular-note\ng-demo\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ng-demo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,6 +81,7 @@
       <updated>1597655700738</updated>
       <workItem from="1597655759438" duration="3911000" />
       <workItem from="1597721567328" duration="23232000" />
+      <workItem from="1597891559866" duration="12077000" />
     </task>
     <servers />
   </component>
@@ -74,14 +92,36 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="0" key="SettingsEditor" timestamp="1597729810718">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="538" y="110" key="FileChooserDialogImpl" timestamp="1597891663735">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="538" y="110" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597891663735" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1597906683155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597906683155" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1597906683155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597906683155" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1597906683155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597906683155" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1597906683155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597906683155" />
+    <state x="395" y="242" key="SettingsEditor" timestamp="1597891902778">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597729810718" />
-    <state x="546" y="238" width="348" height="298" key="org.angular.cli.generate" timestamp="1597768208858">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="395" y="242" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597891902778" />
+    <state x="551" y="374" width="490" height="426" key="org.angular.cli.generate" timestamp="1597906163841">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="546" y="238" width="348" height="298" key="org.angular.cli.generate/0.0.1366.728@0.0.1366.728" timestamp="1597768208858" />
+    <state x="551" y="374" width="490" height="426" key="org.angular.cli.generate/0.0.1920.1040@0.0.1920.1040" timestamp="1597906163841" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597762657352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
